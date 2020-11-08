@@ -2,12 +2,12 @@
 backend
 
 dependencies:
-cors: 2.8.5
-express": 4.17.1
+cors: 2.8.5, 
+express: 4.17.1, 
 mongoose": 5.10.9
 
 devDependencies:
-dotenv": 8.2.0
+dotenv": 8.2.0, 
 nodemon": 2.0.6
 
 
