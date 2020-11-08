@@ -1,0 +1,30 @@
+GET http://localhost:3000/books
+
+###
+
+GET http://localhost:3000/books/5fa3d8943d76a929105e1011
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Rhythm of War",
+    "summary": "The eagerly awaited sequel to the #1 New York Times bestselling Oathbringer, from an epic fantasy writer at the top of his game.",
+    "author": "Brandon Sanderson",
+    "category": ["5fa3d76340bbda14f4668956", "5fa3dfc23d76a929105e1012", "5fa3dfcd3d76a929105e1013"]
+}
+
+###
+
+DELETE http://localhost:3000/books/5fa3b6ee0305a72accfd25ed
+
+###
+
+PATCH http://localhost:3000/books/5f8febe9a92b522f5432c12f
+Content-Type: application/json
+
+{
+    "title": "New title"
+}

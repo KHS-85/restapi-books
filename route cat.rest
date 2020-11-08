@@ -1,0 +1,27 @@
+GET http://localhost:3000/categories
+
+###
+
+GET http://localhost:3000/categories/5fa29431b369b63a5801e8b9
+
+###
+
+POST http://localhost:3000/categories
+Content-Type: application/json
+
+{
+    "category": "Adult"
+}
+
+###
+
+DELETE http://localhost:3000/categories/5f9fcf29110cb408ec7d1fa4
+
+###
+
+PATCH http://localhost:3000/categories/5fa01b33d890f3057012d832
+Content-Type: application/json
+
+{
+    "category": "New category"
+}
